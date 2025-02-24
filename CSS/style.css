@@ -1,33 +1,32 @@
 ```css
-/* Basic Styling -  Replace with your own styles */
+/* style.css -  Styles for the webpage */
 
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
 }
 
 header {
   background-color: #f0f0f0;
-  padding: 1rem;
+  padding: 20px;
   text-align: center;
 }
 
 nav {
   background-color: #ddd;
-  padding: 0.5rem;
+  padding: 10px;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 nav li {
   display: inline;
-  margin-right: 1rem;
+  margin-right: 20px;
 }
 
 nav a {
@@ -36,12 +35,12 @@ nav a {
 }
 
 main {
-  padding: 1rem;
+  padding: 20px;
 }
 
 footer {
   background-color: #f0f0f0;
-  padding: 1rem;
+  padding: 10px;
   text-align: center;
 }
 ```
