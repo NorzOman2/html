@@ -65,3 +65,51 @@ button:hover {
     color: #666;
     border-top: 2px solid #eee;
 }
+
+```css
+/* Basic styles -  Replace with your own styling */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  background-color: #ddd;
+  padding: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+main {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  text-align: center;
+}
+```
