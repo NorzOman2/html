@@ -14,29 +14,61 @@
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section>
+        <section id="projects">
             <h2>My Projects</h2>
             <article>
                 <h3>Project 1: Responsive Website Design</h3>
+                <img src="project1.jpg" alt="Responsive Website Design">
                 <p>Designed a fully responsive website using HTML, CSS, and JavaScript.  The site is adaptable to various screen sizes and devices.</p>
                 <a href="#">View Project</a>
             </article>
             <article>
                 <h3>Project 2:  E-commerce Web Application</h3>
+                <img src="project2.jpg" alt="E-commerce Web Application">
                 <p>Developed a basic e-commerce web application with user authentication, product catalog, and shopping cart functionality using React and Node.js.</p>
                 <a href="#">View Project</a>
             </article>
             <article>
                 <h3>Project 3: Data Visualization Dashboard</h3>
+                <img src="project3.jpg" alt="Data Visualization Dashboard">
                 <p>Created an interactive data visualization dashboard using D3.js to display complex datasets in a user-friendly manner.</p>
                 <a href="#">View Project</a>
             </article>
+        </section>
+
+        <section id="skills">
+            <h2>My Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>D3.js</li>
+                <!-- Add more skills here -->
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
         </section>
     </main>
 
