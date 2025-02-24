@@ -1,76 +1,55 @@
 ```css
-/* Basic Reset */
-* {
+/* style.css -  This file will contain all the styles for your webpage. */
+
+/* Basic Reset (Optional, but recommended for consistency across browsers) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  background-color: #f4f4f4;
-  color: #333;
+  font-family: sans-serif; /* Choose a default font family */
+  line-height: 1.6; /* Improve readability */
 }
 
-/* Header */
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 1rem 0;
-  text-align: center;
+  background-color: #f0f0f0; /* Example background color */
+  padding: 1rem 0; /* Add some padding */
 }
 
-header h1 {
-  font-size: 2rem;
-  margin-bottom: 0.5rem;
-}
-
-/* Navigation */
 nav {
-  background-color: #444;
+  background-color: #ddd; /* Example background color */
   padding: 0.5rem 0;
 }
 
 nav ul {
   list-style: none;
-  text-align: center;
+  text-align: center; /* Or left, right, justify as needed */
 }
 
 nav li {
   display: inline;
-  margin: 0 1rem;
+  margin: 0 1rem; /* Adjust spacing between navigation items */
 }
 
 nav a {
-  color: #fff;
   text-decoration: none;
+  color: #333; /* Example link color */
 }
 
-/* Main Content */
+
 main {
-  padding: 2rem;
-  max-width: 960px;
-  margin: 0 auto;
+  padding: 2rem; /* Add padding to the main content area */
 }
 
-main h2 {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
+footer {
+  background-color: #f0f0f0; /* Example background color */
+  text-align: center;
+  padding: 1rem 0;
 }
 
-main p {
-  margin-bottom: 1rem;
-}
-
-
-/*Optional -  Adds some visual appeal*/
-section {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
+/* Add more styles here as needed */
 ```
