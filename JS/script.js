@@ -1,4 +1,3 @@
 ```javascript
-// This JavaScript file is currently empty.  
-// Add your JavaScript code here.
+// This file is currently empty.  JavaScript code will be added here later.
 ```
