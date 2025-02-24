@@ -1,51 +1,45 @@
-/* style.css */
+/* style.css - This file will contain all the styles for your webpage. */
 
-/* Basic Reset */
-* {
+/* Basic Reset -  Optional but recommended for consistent styling across browsers */
+body, h1, h2, h3, h4, p, ul, li, a {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-family: sans-serif;
-  line-height: 1.6;
+  font-family: sans-serif; /* Choose your default font family */
+  line-height: 1.6; /* Adjust line height for better readability */
 }
 
+/* Basic Layout Styles - Add your specific styles here */
 header {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0; /* Example background color */
   padding: 20px;
-  text-align: center;
 }
 
 nav {
-  background-color: #ddd;
+  background-color: #ddd; /* Example background color */
   padding: 10px;
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
+  list-style: none; /* Remove default bullet points */
 }
 
 nav li {
-  display: inline;
-  margin: 0 10px;
+  display: inline; /* Arrange list items horizontally */
+  margin-right: 20px;
 }
 
-nav a {
-  text-decoration: none;
-  color: #333;
-}
 
 main {
   padding: 20px;
 }
 
 footer {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0; /* Example background color */
   padding: 10px;
   text-align: center;
 }
+
+/* Add more styles here as needed for specific elements and sections */
