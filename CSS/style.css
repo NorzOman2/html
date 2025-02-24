@@ -1,115 +1,76 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fef1f1; /* Light pinkish background */
-    color: #333;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-    margin: 0;
-}
-
-.container {
-    width: 90%; /* 90% of the screen width */
-    max-width: 500px; /* Max width set to 500px */
-    height: 60%; /* 60% of the screen height */
-    background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.header {
-    background-color: #D32F2F; /* Strong red */
-    padding: 30px;
-    color: white;
-    text-align: center;
-    border-bottom: 4px solid #B71C1C; /* Darker red bottom border */
-}
-
-.main-content {
-    padding: 40px 20px;
-    text-align: center;
-}
-
-button {
-    background-color: #D32F2F; /* Strong red */
-    color: white;
-    border: none;
-    padding: 15px 30px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-button:hover {
-    background-color: #B71C1C; /* Darker red on hover */
-    transform: scale(1.05); /* Slight scale effect on hover */
-}
-
-.footer {
-    text-align: center;
-    background-color: #fff0f0; /* Light pink footer */
-    padding: 15px;
-    font-size: 14px;
-    color: #666;
-    border-top: 2px solid #eee;
-}
-
 ```css
-/* Basic styles -  Replace with your own styling */
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: sans-serif;
-  margin: 0;
-  padding: 0;
   line-height: 1.6;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
+/* Header */
 header {
-  background-color: #f0f0f0;
-  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 0;
   text-align: center;
 }
 
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Navigation */
 nav {
-  background-color: #ddd;
-  padding: 0.5rem;
+  background-color: #444;
+  padding: 0.5rem 0;
 }
 
 nav ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
+  text-align: center;
 }
 
 nav li {
   display: inline;
-  margin-right: 1rem;
+  margin: 0 1rem;
 }
 
 nav a {
+  color: #fff;
   text-decoration: none;
-  color: #333;
 }
 
+/* Main Content */
 main {
-  padding: 1rem;
+  padding: 2rem;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
-footer {
-  background-color: #f0f0f0;
-  padding: 1rem;
-  text-align: center;
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+main p {
+  margin-bottom: 1rem;
+}
+
+
+/*Optional -  Adds some visual appeal*/
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 ```
