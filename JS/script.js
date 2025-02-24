@@ -1,3 +1,3 @@
 ```javascript
-// This JavaScript file is currently empty.  Add your JavaScript code here.
+// This file is intentionally left empty for future use.
 ```
