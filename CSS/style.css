@@ -1,37 +1,43 @@
 ```css
-/* style.css -  Styles for the webpage */
+/* style.css - This file will contain all the styles for your webpage. */
 
-body {
-  font-family: sans-serif;
+/* Basic Reset - Optional, but recommended for consistency across browsers */
+body, h1, h2, h3, h4, p, ul, li {
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: sans-serif; /* Choose a default font family */
+  line-height: 1.6; /* Improve readability */
+}
+
+
+/* Basic Styling for Layout Elements - Customize as needed */
 header {
-  background-color: #f0f0f0;
+  background-color: #f0f0f0; /* Light gray background */
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: #ddd;
+  background-color: #ddd; /* Slightly darker gray for navigation */
   padding: 10px;
 }
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  text-align: center;
 }
 
 nav li {
   display: inline;
-  margin-right: 20px;
+  margin: 0 10px;
 }
 
 nav a {
   text-decoration: none;
-  color: #333;
+  color: #333; /* Dark gray for links */
 }
 
 main {
