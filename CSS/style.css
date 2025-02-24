@@ -1,187 +1,47 @@
 ```css
-/* style.css -  This file will contain all the styles for your webpage. */
-
-/* Basic Reset (Optional, but recommended for consistency across browsers) */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+/* Basic Styling -  Replace with your own styles */
 
 body {
-  font-family: 'Arial', sans-serif; /* Choose a default font family */
-  line-height: 1.6; /* Improve readability */
-  background-color: #f4f4f4; /* Light gray background */
-  color: #333; /* Dark gray text */
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
 header {
-  background-color: #333; /* Dark gray header */
-  color: white; /* White text on header */
-  padding: 2rem 0; /* Add some padding */
+  background-color: #f0f0f0;
+  padding: 1rem;
   text-align: center;
 }
 
-header h1 {
-  font-size: 2.5rem; /* Larger header text */
-  margin-bottom: 1rem;
-}
-
 nav {
-  background-color: #444; /* Slightly lighter gray navigation */
-  padding: 1rem 0;
+  background-color: #ddd;
+  padding: 0.5rem;
 }
 
 nav ul {
   list-style: none;
-  text-align: center; 
+  padding: 0;
+  margin: 0;
 }
 
 nav li {
   display: inline;
-  margin: 0 1.5rem; /* Adjust spacing between navigation items */
+  margin-right: 1rem;
 }
 
 nav a {
   text-decoration: none;
-  color: white; /* White link color */
-  font-weight: bold;
-  padding: 0.5rem 1rem;
-  border-radius: 5px; /*Rounded corners*/
-  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  color: #333;
 }
-
-nav a:hover {
-  background-color: #ddd; /* Light gray hover background */
-  color: #333; /* Dark gray text on hover */
-}
-
 
 main {
-  padding: 2rem; /* Add padding to the main content area */
-  min-height: calc(100vh - 12rem); /* Ensure main content takes up at least the remaining viewport height */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-}
-
-main h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-main p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  text-align: justify;
-}
-
-/* Skills Section */
-#skills {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-#skills h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-}
-
-#skills ul {
-  list-style: none;
-  padding: 0;
-}
-
-#skills li {
-  margin: 1rem 0;
-  font-size: 1.2rem;
-}
-
-
-/* Project Section */
-#projects {
-  margin-top: 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.project {
-  width: 300px;
-  margin: 1rem;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  overflow: hidden;
-}
-
-.project img {
-  width: 100%;
-  height: auto;
-}
-
-.project h3 {
   padding: 1rem;
 }
 
-
-/* Contact Section */
-#contact {
-  margin-top: 2rem;
-  text-align: center;
-}
-
-#contact form {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-#contact label {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-#contact input,
-#contact textarea {
-  width: 100%;
-  padding: 0.8rem;
-  margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
-
-#contact button {
-  background-color: #333;
-  color: white;
-  padding: 0.8rem 1.5rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-
 footer {
-  background-color: #333; /* Dark gray footer */
-  color: white;
+  background-color: #f0f0f0;
+  padding: 1rem;
   text-align: center;
-  padding: 1rem 0;
-}
-
-/*Responsiveness*/
-@media (max-width: 768px) {
-  .project {
-    width: 45%;
-  }
-}
-
-@media (max-width: 480px) {
-  .project {
-    width: 100%;
-  }
-  #contact form {
-    max-width: 90%;
-  }
 }
 ```
